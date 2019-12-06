@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-export const Posta = styled.div`
+export const PostHeader = styled.div`
 display:flex;
 flex-direction: column;
 
 margin: 0 auto;
 margin-top: 30px;
+margin-bottom: 30px;
 
 width: 700px;
 
@@ -15,21 +16,20 @@ background: #FFF;
 padding-top: 20px;
 padding-left: 30px;
 
-box-shadow: 2px 2px 2px 2px #D5DBDB;
-border-radius: 7px 7px;
+box-shadow: 2px 2px 10px 10px #D5DBDB;
+border-radius: 3px 3px;
 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-h3{
 
-    align-items: center;
+.content{
+
     margin-top:20px;
-    border-bottom: 1px solid #D5DBDB;
     width: 600px;
 
     padding-bottom:20px;
+    border-bottom: 1px solid #D5DBDB;
     
 
-    font-size: 13px;
 }
 `
 
@@ -47,7 +47,7 @@ img{
     width:40px;
 }
 
-div{
+.name-time{
     
     height: 30px;
     margin-left: 15px;
@@ -60,6 +60,7 @@ div{
     p{
         font-size: 10px;
         color:  #BDC3C7;
+        margin-top:3px;
     }
 }
 `;

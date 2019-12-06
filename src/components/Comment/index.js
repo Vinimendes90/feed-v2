@@ -6,10 +6,12 @@ export default function Comment({data}) {
   return (
       <>
       <Article>
+        
       <img src={data.author.avatar} alt="Foto de Perfil"  />
 
-      <div className='comment'>
-      <p><span>{data.author.name} </span>{data.content}</p>
+      <div className='contents'>
+
+      <span>{data.author.name}</span> <span>{data.content}</span>
       </div>
       </Article>
      </>
