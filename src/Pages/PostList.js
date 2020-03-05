@@ -14,7 +14,7 @@ export default class PostList extends Component{
               avatar: 'https://image.freepik.com/vetores-gratis/perfil-de-avatar-de-homem-no-icone-redondo_24640-14046.jpg',
             },
             date: '08 Jun 2019',
-            content: 'Pessoal, alguém sabe se a Rocktseat está contratando?',
+            content: 'What is Lorem Ipsum?',
             comments: [
               {
                 id: 1,
@@ -42,7 +42,7 @@ export default class PostList extends Component{
               avatar: 'https://png.pngtree.com/element_our/png_detail/20181102/avatar-profile-logo-vector-emblem-illustration-modern-illustration-png_227485.jpg',
             },
             date: '04 Jun 2019',
-            content: 'Pessoal, alguém sabe se a Rocktseat está contratando?',
+            content: 'Where does it come from?',
             comments: [
               {
                 id: 1,
@@ -79,7 +79,7 @@ export default class PostList extends Component{
               avatar: 'https://png.pngtree.com/element_our/png_detail/20181102/avatar-profile-logo-vector-emblem-illustration-modern-illustration-png_227485.jpg',
             },
             date: '04 Jun 2019',
-            content: 'Pessoal, alguém sabe se a Rocktseat está contratando?',
+            content: 'Where can I get some?',
             comments: [
               {
                 id: 1,

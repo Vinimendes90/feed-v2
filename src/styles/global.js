@@ -13,6 +13,10 @@ body {
     background: #EAEDED;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-    font-family: sans-serif;
+    
+    @font-face {
+        font-family: helveticaneue;
+        src: url('HelveticaNeueLTStd-UltLt.otf');
+   }
 }
 `;
